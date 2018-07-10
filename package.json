@@ -1,0 +1,19 @@
+{
+  "name": "sensor-radiacion-termica",
+  "version": "1.0.0",
+  "description": "Visualización y Lectura de Radiación Termica del Ambiente",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "keywords": [],
+  "author": "Jesus Hernandez <jesusbeckan@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4",
+    "johnny-five": "^0.11.7",
+    "nodemon": "^1.12.1",
+    "serialport": "^6.0.4",
+    "socket.io": "^2.0.3"
+  }
+}

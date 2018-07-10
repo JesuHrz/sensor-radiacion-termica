@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Radiacion Termica</title>
+</head>
+<body>
+  <center><h1>Visualización y Lectura de Radiación Termina del Ambiente</h1></center>
+  <canvas id="chart" width="400" height="150"></canvas> <!--  Etiqueta HTML5 donde se graficaran los datos -->
+  <div class="temperatura">
+    <h1>Radiacion Termina: <span id="p-temperatura"></span> Watt/m^2</h1>
+  </div>
+  <script type="text/javascript "src="/socket.io/socket.io.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.bundle.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+</html>
